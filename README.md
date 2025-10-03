@@ -20,7 +20,7 @@ It includes a **Tkinter GUI** to choose a city, fetch data, visualize historical
 5. **Forecast**: iterative, de-normalize back, add seasonality tail.
 6. **GUI**: plots forecasts and shows basic **sowing recommendations** for a set of crops (threshold-based rules).
 
-## Install
+## Run
 ```bash
 python -m venv venv
 # Windows:
