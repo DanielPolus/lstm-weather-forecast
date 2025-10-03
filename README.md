@@ -11,14 +11,6 @@ It includes a **Tkinter GUI** to choose a city, fetch data, visualize historical
 - **Tkinter GUI** with Matplotlib plots (4 subplots: humidity, temperature, precipitation, wind).
 - Simple **agronomy rules** to recommend crops based on forecast ranges.
 
-## Project Structure
-lstm-weather-forecast/
-├─ main.py # your script (GUI + data + model)
-├─ requirements.txt
-├─ README.md
-└─ data_cache/ # created at runtime for cached CSV files
-
-
 ## How It Works (Pipeline)
 1. **Data loading**: from Meteostat (hourly/daily). On first run, data is downloaded and cached into `data_cache/<city>_*.csv`.  
    On subsequent runs, the app asks whether to reuse cached data.
